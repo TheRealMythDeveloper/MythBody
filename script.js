@@ -27,7 +27,7 @@ scene.add(directionalLight);
 const loader = new GLTFLoader();
 
 loader.load(
-    'avatar.glb',
+    'Avatar.glb',
     function (gltf) {
 
         const avatar = gltf.scene;
